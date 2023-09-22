@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merriweather', serif;
+}
+.top-division{
+    background-color: #e4f9f5;
+    padding-top: 100px;
+    position: relative;
+    height: 400px;
+    text-align: center;
+}
+.cloud{
+    position: absolute;
+    top: 40px;
+    right: 300px;
+    height: 70px;
+}
+.cloud2{
+    position: absolute;
+    bottom: 200px;
+    left: 290px;
+    height: 70px;
+}
+.mountain{
+    height: 200px;
+    position: absolute;
+    right: 600px;
+    bottom: 00px;
+} 
+span{
+    text-decoration: underline;
+}
+.words{
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+}
+/* middlle styling */
+.middle-division{
+    text-align: center;
+}
+.text{
+    margin: auto;
+    width: 30%;
+    font-size: larger;
+}
+hr{
+    width: 4%;
+    border-width:  6px;
+    border-style: dotted;
+    border-color: rgb(234, 246, 246);
+    border-image: initial;
+    border-bottom: none;
+    margin: 100px auto;
+}
+.rigger{
+    color: #11cdd4;
+}
+img{
+    height: 200px;  
+}
+.Skill{
+    display: block;
+    text-align: center;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+.contact{
+    text-align: center;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.btn{
+    border-radius : 15px;
+    background: #11cdd4;
+    font-size: 30px;
+    background-image: linear-gradient(to buttom,#11cdd4,#11999e);
+    padding: 10px 20px;
+    border-color: white;
+    margin-bottom: 70px;
+}
+.abtn{
+    text-decoration: none;
+    color: #ffffff;
+}
+.bottom-container{
+    text-align: center;
+    background-color: #66bfbf;
+    padding: 50px 0px 20px;
+}
+.footer{
+    margin: 10px;
+    color: #11999e;
+    text-decoration: none;
+}
+.copyright{
+    color: #ffffff;
+}
+h2{
+    color: #11cdd4;
+}
+h3{
+    color: #11cdd4;
+}
+h1{
+    color: #11cdd4;
+}
