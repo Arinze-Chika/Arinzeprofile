@@ -14,7 +14,7 @@ body{
     position: absolute;
     top: 40px;
     right: 300px;
-    height: 70px;
+     height: 70px;
 }
 .cloud2{
     position: absolute;
@@ -79,6 +79,10 @@ img{
     width: 40%;
     margin: 40px auto 60px;
 }
+.punt{
+    color: #ff4500;
+    text-transform: capitalize;
+}
 .btn{
     border-radius : 15px;
     background: #11cdd4;
@@ -113,4 +117,48 @@ h3{
 }
 h1{
     color: #11cdd4;
+}
+@media (max-width:576px) {
+    body{
+        text-align: center;
+    }
+    .top-division{
+        margin-right: 0;
+        width: 600px;
+        text-align: center;
+    }
+    .cloud2{
+        position: absolute;
+        right: 200px;
+        height: 40px;
+        bottom: 100px;
+    }
+    .cloud{
+        height: 40px;
+    }
+    .bottom-container{
+        width: 600px;
+    }
+    .mountain{
+        position: absolute;
+        left: 170px;
+        height: 100px;
+    }
+}
+@media (min-width:577px) and (max-width:992px) {
+    .mountain{
+        position: absolute;
+        right: 200px;
+    }
+    .cloud{
+        position: absolute;
+        right: 0px;
+    }
+    .cloud2{
+        position: absolute;
+        left: 0px;
+    }
+    .top-division{
+        /* width: 200px; */
+    }
 }
